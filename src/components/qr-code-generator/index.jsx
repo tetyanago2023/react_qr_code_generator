@@ -18,6 +18,7 @@ const QRCodeGenerator = () => {
                     onChange={(e) => setInput(e.target.value)}
                     type="text"
                     name="qr-code"
+                    value={input}
                     placeholder="Enter text for QR code"
                 />
                 <button
